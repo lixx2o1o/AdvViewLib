@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by lixx on 2016/10/9.
  */
-public class ViewPagerHandler {
+public class ViewPagerHelper {
     private Context context;
     private ViewPager mViewPager;
     private LinearLayout pointGroup;
@@ -33,7 +33,7 @@ public class ViewPagerHandler {
     private float x = 0;
     private float x1 = 0;
 
-    public ViewPagerHandler(Context context, ViewPager mViewPager, LinearLayout pointGroup){
+    public ViewPagerHelper(Context context, ViewPager mViewPager, LinearLayout pointGroup){
         this.context = context;
         this.mViewPager = mViewPager;
         this.pointGroup = pointGroup;
