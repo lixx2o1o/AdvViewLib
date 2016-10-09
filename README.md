@@ -1,5 +1,7 @@
 # AdvViewLib
 
+广告轮播ViewPager
+
 //Java使用方法：
 
     //ViewPager
